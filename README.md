@@ -187,5 +187,7 @@ You are required to submit the following for review:
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
-Npm run test video: ![Team-Profile-Generator](https://user-images.githubusercontent.com/77666204/117658525-2c5bc580-b1de-11eb-94e2-da1afc61a030.gif)
+# Npm run test video
+
+![Team-Profile-Generator](https://user-images.githubusercontent.com/77666204/117658525-2c5bc580-b1de-11eb-94e2-da1afc61a030.gif)
 
