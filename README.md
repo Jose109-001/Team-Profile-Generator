@@ -1,5 +1,3 @@
-![picture 3](https://user-images.githubusercontent.com/77666204/117643731-0fb69200-b1cc-11eb-8f6b-225929e4a9ad.png)
-![picture 2](https://user-images.githubusercontent.com/77666204/117643733-10e7bf00-b1cc-11eb-8d4e-7f999fae1e6c.png)
 
 # Team-Profile-Generator
 
@@ -81,7 +79,11 @@ The application must include `Employee`, `Manager`, `Engineer`, and `Intern` cla
 
 Here is an example of some test cases to get you started:
 
-![Example Test Cases](./Assets/test-example.png)
+
+![picture 2](https://user-images.githubusercontent.com/77666204/117643733-10e7bf00-b1cc-11eb-8d4e-7f999fae1e6c.png)
+![picture 3](https://user-images.githubusercontent.com/77666204/117643731-0fb69200-b1cc-11eb-8f6b-225929e4a9ad.png)
+
+
 
 The first class is an `Employee` parent class with the following properties and methods:
 
