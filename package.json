@@ -1,0 +1,30 @@
+{
+  "name": "Team-Profile-Generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index",
+    "gen": "node src/gen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jose109-001/Team-Profile-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jose109-001/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/Jose109-001/Team-Profile-Generator#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.0.0"
+  }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Team</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+
+    <style>
+      header {
+        color: white;
+        background: #e44;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="p-5 text-center">
+      <h1>My Team</h1>
+    </header>
+
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <!-- Manager -->
+        <div class="col-4">
+          <div class="card me-3 mb-3">
+            <div class="card-header">
+              <h3>{{manager.name}}</h3>
+              <h5>
+                <i class="fa fa-mug-hot"></i>
+                Manager
+              </h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>ID:</strong> {{manager.id}}
+              </li>
+              <li class="list-group-item">
+                <strong>Email:</strong> {{manager.email}}
+              </li>
+              <li class="list-group-item">
+                <strong>Office number:</strong> {{manager.officeNumber}}
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Engineers -->
+        {{#each engineers}}
+        <div class="col-4">
+          <div class="card me-3 mb-3">
+            <div class="card-header">
+              <h3>{{name}}</h3>
+              <h5>
+                <i class="fa fa-glasses"></i>
+                Engineer
+              </h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>ID:</strong> {{id}}
+              </li>
+              <li class="list-group-item">
+                <strong>Email:</strong> {{email}}
+              </li>
+              <li class="list-group-item">
+                <strong>Github:</strong> {{github}}
+              </li>
+            </ul>
+          </div>
+        </div>
+        {{/each}}
+
+        <!-- Interns -->
+        {{#each interns}}
+        <div class="col-4">
+          <div class="card me-3 mb-3">
+            <div class="card-header">
+              <h3>{{name}}</h3>
+              <h5>
+                <i class="fa fa-user-graduate"></i>
+                Intern
+              </h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>ID:</strong> {{id}}
+              </li>
+              <li class="list-group-item">
+                <strong>Email:</strong> {{email}}
+              </li>
+              <li class="list-group-item">
+                <strong>School:</strong> {{school}}
+              </li>
+            </ul>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </body>
+</html>
