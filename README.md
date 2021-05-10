@@ -1,3 +1,5 @@
+![picture 3](https://user-images.githubusercontent.com/77666204/117643731-0fb69200-b1cc-11eb-8f6b-225929e4a9ad.png)
+![picture 2](https://user-images.githubusercontent.com/77666204/117643733-10e7bf00-b1cc-11eb-8d4e-7f999fae1e6c.png)
 
 # Team-Profile-Generator
 
@@ -44,7 +46,8 @@ THEN I exit the application, and the HTML is generated
 
 The following image shows a mock-up of the generated HTML’s appearance and functionality:
 
-![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./Assets/10-object-oriented-programming-homework-demo.png)
+![Picture 1](https://user-images.githubusercontent.com/77666204/117643738-11805580-b1cc-11eb-8543-e25fe85c45ec.png)
+
 
 The styling in the image is just an example, so feel free to add your own.
 
